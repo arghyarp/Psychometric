@@ -77,8 +77,6 @@ const qustionDataBase = [
   const questionContainer = document.querySelector("h3");
   const option1 = document.querySelector("#option1");
   const option2 = document.querySelector("#option2");
-  const option3 = document.querySelector("#option3");
-  const option4 = document.querySelector("#option4");
   const submitButton = document.querySelector("button");
   const usersAnswer = document.querySelectorAll(".answer");
   const scoreArea = document.querySelector("#ShowScore");
@@ -92,8 +90,6 @@ const qustionDataBase = [
     questionContainer.innerText = list.question;
     option1.innerText = list.option1;
     option2.innerText = list.option2;
-    option3.innerText = list.option3;
-    option4.innerText = list.option4;
   };
   
   mainFunc();
